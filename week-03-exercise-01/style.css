@@ -1,0 +1,20 @@
+*{box sizing border-box;
+}
+body {font-family: 'Courier New', Courier, monospace;
+    background-color: #f1f115;
+    margin: 10px;
+    padding: 10px;
+}
+.card {border: 5px solid #ffffff;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    background-color: #2e7d32;
+}
+h1 {margin: auto;
+    font-size: 30px;
+    color: #ffffff;}
+p {font-size: 15px;
+    color: #ffffff;
+    margin: auto}
+
