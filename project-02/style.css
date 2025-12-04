@@ -117,23 +117,25 @@ section ul {
     background-color: #a6a6ac;
     border-radius: 8px;
 }
-.image-01 {
+.image-box {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: fit-content;
-    height: fit-content;
-    border: 3px solid rgb(0, 0, 0);
-    background-color: #e4e4e4;
-    padding: 16px;
-    margin-bottom: auto;
+    margin-bottom: 20px;
+    border: #000000 2px solid;
+    padding: 10px;
     border-radius: 8px;
-    box-shadow: #090909;
+    background-color: azure;
+    box-shadow: #000000 5px 5px 15px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
-.image-01:hover {
+.image-box:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
+}
+.image-01 {
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width>=480px) {
