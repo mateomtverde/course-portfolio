@@ -118,7 +118,7 @@ section ul {
     border-radius: 8px;
 }
 .image-box {
-    flex-basis: 500px;
+    flex-basis: 350px;
     flex-grow: 1;
     flex-shrink: 1;
     border: #000000 2px solid;
@@ -130,7 +130,7 @@ section ul {
 }
 .image-box:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
-    transform: translateY(-4px);
+    transform: skew( -2deg, -2deg);
 }
 .image-box img {
     width: 100%;
