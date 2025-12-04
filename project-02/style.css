@@ -118,9 +118,7 @@ section ul {
     border-radius: 8px;
 }
 .image-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-basis: 500px;
     margin-bottom: 20px;
     border: #000000 2px solid;
     padding: 10px;
