@@ -134,7 +134,7 @@ section ul {
     transform: translateY(-4px);
 }
 .image-01 {
-    width: 100%;
+    width: auto;
     height: auto;
     display: block;
     justify-content: center;
