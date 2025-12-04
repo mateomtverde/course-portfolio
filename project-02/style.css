@@ -10,7 +10,7 @@ header {
     padding: 16px;
     border: 2px solid rgb(0, 0, 0);
     text-align: center;
-    background-color: gradient(to margin-bottom, #03cdfb, #0362fb);
+    background-color: gradient(to right, #0d00ff, #01a9f4);
 }
 .nav-links {
     display: flex;
