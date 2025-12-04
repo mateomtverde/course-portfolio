@@ -130,20 +130,17 @@ section ul {
     flex-shrink: 1;
     box-shadow: #090909;
 }
-.list-items img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: 5px solid rgb(0, 0, 0);
-    margin-bottom: auto;
-    border-radius: 8px;
+.li-img-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
     background-color: #000000;
-    transition: transform ease-in-out 0.3s; background-color: ease-in-out 0.3s;
+    transition: image 0.3s ease, transform 0.3s ease;
 }
-.list-items img:hover {
-    transform: image-color(80%);
-    background-color: #3f3f42ac;
-}
+.li-img-01:hover {
+    background-color: li-img-01;
+    transform: scale3d(1.05, 1.05, 1);
 
 @media (min-width>=480px) {
     .list-items li {
