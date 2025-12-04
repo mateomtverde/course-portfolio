@@ -132,11 +132,9 @@ section ul {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
 }
-.image-01 {
+.image-box img {
     width: 100%;
     height: auto;
-    display: block;
-    border: #000000 2px solid;
     border-radius: 8px;
 }
 
