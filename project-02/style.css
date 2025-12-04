@@ -132,6 +132,8 @@ section ul {
 }
 .li-img-01 {
     display: flex;
+    width: fit-content;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
@@ -139,8 +141,9 @@ section ul {
     transition: image 0.3s ease, transform 0.3s ease;
 }
 .li-img-01:hover {
-    background-color: li-img-01;
     transform: scale3d(1.05, 1.05, 1);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
 
 @media (min-width>=480px) {
     .list-items li {
