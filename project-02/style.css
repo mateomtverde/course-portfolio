@@ -110,6 +110,13 @@ section ul {
     background-color: #a6a6ac;
     border-radius: 8px;
 }
+.box-04 {
+    padding: 16px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #a6a6ac;
+    border-radius: 8px;
+}
 .list-items li {
     border: 3px solid rgb(0, 0, 0);
     background-color: #e4e4e4;
