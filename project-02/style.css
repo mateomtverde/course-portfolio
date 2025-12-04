@@ -126,8 +126,8 @@ section ul {
     box-shadow: #090909;
 }
 .li-img-01 {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     transition: image 0.3s ease, transform 0.3s ease;
 }
 .li-img-01:hover {
