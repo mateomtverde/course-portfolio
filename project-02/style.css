@@ -129,21 +129,20 @@ section ul {
     flex-grow: 1;
     flex-shrink: 1;
     box-shadow: #090909;
-    transition: transform 0.3s ease, box shadow 0.3s ease;
-}
-.list-items li:hover {
-    transform: scale3d(1.05, 1.05, 1);
-    box-shadow: #030303;
 }
 .list-items img {
     width: 100%;
     height: auto;
     display: block;
     border: 5px solid rgb(0, 0, 0);
-    margin-bottom: 20px;
+    margin-bottom: auto;
     border-radius: 8px;
     background-color: #000000;
     transition: transform ease-in-out 0.3s; background-color: ease-in-out 0.3s;
+}
+.list-items img:hover {
+    transform: image-color(80%);
+    background-color: #3f3f42ac;
 }
 
 @media (min-width>=480px) {
