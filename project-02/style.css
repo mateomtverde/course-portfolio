@@ -133,7 +133,7 @@ section ul {
     transform: skew( -2deg, -2deg);
 }
 .image-box img {
-    width: auto;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
