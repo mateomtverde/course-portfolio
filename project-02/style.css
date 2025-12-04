@@ -134,8 +134,8 @@ section ul {
     transform: translateY(-4px);
 }
 .image-01 {
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height: 400px;
 }
 
 @media (min-width>=480px) {
