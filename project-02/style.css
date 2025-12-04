@@ -9,9 +9,8 @@ body {
 header {
     padding: 16px;
     border: 2px solid rgb(0, 0, 0);
-    background-color: #0362fb;
     text-align: center;
-    background-blend-mode: color-burn;
+    background-color: gradient(to margin-bottom, #03cdfb, #0362fb);
 }
 .nav-links {
     display: flex;
