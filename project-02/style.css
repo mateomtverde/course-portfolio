@@ -82,6 +82,9 @@ section h2 {
 }
 section h3 {
     font-size: x-large;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 section p {
     max-width: 800px;
@@ -154,6 +157,10 @@ section ul {
 .animation-items button:hover {
     background-color: #000000;
     transform:scale(3.5);
+}
+footer {
+    font-size: large;
+    text-align: left;
 }
 
 @media (min-width>=480px) {
