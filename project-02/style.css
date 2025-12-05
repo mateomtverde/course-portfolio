@@ -81,10 +81,12 @@ section h2 {
     text-align: center;
 }
 section h3 {
+    max-width: 800px;
     font-size: x-large;
     text-align: left;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style:italic;
 }
 section p {
     max-width: 800px;
