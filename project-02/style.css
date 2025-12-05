@@ -110,19 +110,13 @@ section ul {
     background-color: #a6a6ac;
     border-radius: 8px;
 }
-.box-04 {
-    padding: 16px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: #a6a6ac;
-    border-radius: 8px;
-}
+
 .image-box {
     border: #000000 2px solid;
     border-radius: 20px;
     padding: 8px;
     margin: auto;
-    max-width: 600px;
+    max-width: 800px;
     background-color: azure;
     box-shadow: #000000 5px 5px 15px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
