@@ -156,10 +156,6 @@ section ul {
     background-color: #000000;
     transform:scale(3.5);
 }
-footer {
-    font-size: large;
-    text-align: left;
-}
 
 @media (min-width>=480px) {
     .list-items li {
